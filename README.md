@@ -2,7 +2,7 @@
 Version Unity - 2021.3.15f1
 A simple project which was created for youtube tutorial about multiplayer on unity with photon unity networking 2. This repository will be updated with new series of tutorials.
 
-[Unity Pun2](https://raw.githubusercontent.com/Pickramag/unity-multiplayer-system-pun2/ec2a12266b04eaa0aef0c4080714/pungit.png)
+[Unity Pun2](https://raw.githubusercontent.com/Pickramag/unity-multiplayer-system-pun2/ec2a12266b04eaa0aef0c6ad3f973d32b4080714/pungit.png)
 
 Plans:
 
