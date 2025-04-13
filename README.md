@@ -7,7 +7,7 @@ A simple project which was created for youtube tutorial about multiplayer on uni
 
 Plans:
 
-1st part - character movement and synchonize peoples. (Completed)
+1st part - character movement and synchonize peoples. ([Completed](www.youtube.com/watch?v=xdfmW2RhQCE&t=651s))
 
 2nd part - customization player and nicknames. (In work)
 
