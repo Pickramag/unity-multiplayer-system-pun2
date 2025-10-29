@@ -65,7 +65,9 @@
     <Compile Include="Assets\Scripts\Player\SmoothlyCameraFollow.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterMovement.cs" />
+    <Compile Include="Assets\Scripts\Photon\PlayerInfo.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
+    <Compile Include="Assets\Scripts\Player\CustomizationCharacter.cs" />
     <Compile Include="Assets\AssetPacks\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Scripts\Player\JoystickController.cs" />
     <Compile Include="Assets\AssetPacks\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
@@ -80,6 +82,7 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
+    <Compile Include="Assets\Scripts\Player\InfoPlayerScriptableObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetPacks\Stylized Water\Shaders\WaterUtilities.cginc" />

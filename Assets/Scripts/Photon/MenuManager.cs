@@ -48,7 +48,7 @@ public class MenuManager : MonoBehaviourPunCallbacks
         PhotonNetwork.LoadLevel(1);
     }
 
-    private void OpenPanel(int indexPanel)
+    public void OpenPanel(int indexPanel)
     {
         for (int i = 0; i < panels.Length; i++)
             panels[i].SetActive(false);

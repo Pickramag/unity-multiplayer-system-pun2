@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638531078952132221
-    m_Hash: 1010242877
+      ticks: 638869707892434692
+    m_Hash: 4114050698
   m_LockFileStatus:
     m_FilePath: D:/UnityProj/Multiplayer Tutorial/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638531079107553203
-    m_Hash: 1035663092
+      ticks: 638869707894789322
+    m_Hash: 3275301814
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -116,6 +116,14 @@ m_ResolvedPackages:
     - 2.1.0
     - 2.2.0
     - 2.3.1
+    - 2.4.3
+    - 2.4.4
+    - 2.5.1
+    - 2.5.2
+    - 2.6.0
+    - 2.7.1
+    - 2.8.1
+    - 2.8.2
     compatible:
     - 1.17.7
     - 2.0.0-preview.6
@@ -137,6 +145,14 @@ m_ResolvedPackages:
     - 2.1.0
     - 2.2.0
     - 2.3.1
+    - 2.4.3
+    - 2.4.4
+    - 2.5.1
+    - 2.5.2
+    - 2.6.0
+    - 2.7.1
+    - 2.8.1
+    - 2.8.2
     verified: 1.17.7
   dependencies:
   - name: com.unity.services.core
@@ -144,11 +160,11 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.services.core
     version: 1.6.0
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   keywords:
   - backup
@@ -336,6 +352,10 @@ m_ResolvedPackages:
     - 3.0.26
     - 3.0.27
     - 3.0.28
+    - 3.0.31
+    - 3.0.34
+    - 3.0.35
+    - 3.0.36
     compatible:
     - 3.0.16
     - 3.0.17
@@ -348,7 +368,11 @@ m_ResolvedPackages:
     - 3.0.26
     - 3.0.27
     - 3.0.28
-    verified: 3.0.28
+    - 3.0.31
+    - 3.0.34
+    - 3.0.35
+    - 3.0.36
+    verified: 3.0.36
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -423,6 +447,7 @@ m_ResolvedPackages:
     - 2.0.20
     - 2.0.21
     - 2.0.22
+    - 2.0.23
     compatible:
     - 2.0.16
     - 2.0.17
@@ -430,7 +455,8 @@ m_ResolvedPackages:
     - 2.0.20
     - 2.0.21
     - 2.0.22
-    verified: 2.0.22
+    - 2.0.23
+    verified: 2.0.23
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -527,6 +553,101 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
+- packageId: com.unity.postprocessing@3.2.2
+  testable: 0
+  isDirectDependency: 1
+  version: 3.2.2
+  source: 1
+  resolvedPath: D:\UnityProj\Multiplayer Tutorial\Library\PackageCache\com.unity.postprocessing@3.2.2
+  assetPath: Packages/com.unity.postprocessing
+  name: com.unity.postprocessing
+  displayName: Post Processing
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The post-processing stack (v2) comes with a collection of effects
+    and image filters you can apply to your cameras to improve the visuals of your
+    games.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.7
+    - 0.1.8
+    - 2.0.0-beta
+    - 2.0.1-beta
+    - 2.0.2-preview
+    - 2.0.3-preview
+    - 2.0.5-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 2.0.9-preview
+    - 2.0.10-preview
+    - 2.0.11-preview
+    - 2.0.12-preview
+    - 2.0.13-preview
+    - 2.0.14-preview
+    - 2.0.15-preview
+    - 2.0.16-preview
+    - 2.0.17-preview
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.1.7
+    - 2.2.1
+    - 2.2.2
+    - 2.3.0
+    - 3.0.1
+    - 3.0.3
+    - 3.1.0
+    - 3.1.1
+    - 3.2.0
+    - 3.2.1
+    - 3.2.2
+    - 3.3.0
+    - 3.4.0
+    - 3.5.0
+    compatible:
+    - 3.2.2
+    - 3.3.0
+    - 3.4.0
+    - 3.5.0
+    verified: 3.2.2
+  dependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637855259850000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Graphics.git
+    revision: 815ce78463c7d3006fa97cd6e8898d91cb9c3ebf
+    path: 
+  unityLifecycle:
+    version: 3.2.2
+    nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
   isDirectDependency: 1
@@ -595,6 +716,8 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.4.4
+    - 1.4.5
+    - 1.4.6
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -616,6 +739,8 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.4.4
+    - 1.4.5
+    - 1.4.6
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -791,6 +916,8 @@ m_ResolvedPackages:
     - 3.2.0-pre.8
     - 3.2.0-pre.9
     - 3.2.0-pre.10
+    - 3.2.0-pre.11
+    - 3.2.0-pre.12
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -808,6 +935,8 @@ m_ResolvedPackages:
     - 3.2.0-pre.8
     - 3.2.0-pre.9
     - 3.2.0-pre.10
+    - 3.2.0-pre.11
+    - 3.2.0-pre.12
     verified: 3.0.9
   dependencies:
   - name: com.unity.ugui
@@ -945,6 +1074,7 @@ m_ResolvedPackages:
     - 1.7.4
     - 1.7.5
     - 1.7.6
+    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -953,6 +1083,7 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
+    - 1.8.8
     compatible:
     - 1.6.4
     - 1.6.5
@@ -965,6 +1096,7 @@ m_ResolvedPackages:
     - 1.7.4
     - 1.7.5
     - 1.7.6
+    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -973,20 +1105,21 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
+    - 1.8.8
     verified: 1.6.5
   dependencies:
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.director
-    version: 1.0.0
   - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -1137,6 +1270,10 @@ m_ResolvedPackages:
     - 1.9.1
     - 1.9.2
     - 1.9.4
+    - 1.9.5
+    - 1.9.6
+    - 1.9.7
+    - 1.9.8
     compatible:
     - 1.7.8
     - 1.8.0
@@ -1144,6 +1281,10 @@ m_ResolvedPackages:
     - 1.9.1
     - 1.9.2
     - 1.9.4
+    - 1.9.5
+    - 1.9.6
+    - 1.9.7
+    - 1.9.8
     verified: 1.7.8
   dependencies:
   - name: com.unity.ugui
@@ -3116,9 +3257,11 @@ m_ResolvedPackages:
     - 1.1.0
     - 1.1.1
     - 1.2.2
+    - 1.2.3
     compatible:
     - 1.1.1
     - 1.2.2
+    - 1.2.3
     verified: 1.1.1
   dependencies: []
   resolvedDependencies: []
@@ -3198,12 +3341,14 @@ m_ResolvedPackages:
     - 1.2.3
     - 1.2.4
     - 1.2.5
+    - 1.2.6
     compatible:
     - 1.2.2
     - 1.2.3
     - 1.2.4
     - 1.2.5
-    verified: 1.2.5
+    - 1.2.6
+    verified: 1.2.6
   dependencies:
   - name: com.unity.test-framework
     version: 1.0.16
@@ -3299,6 +3444,8 @@ m_ResolvedPackages:
     - 1.12.2
     - 1.12.4
     - 1.12.5
+    - 1.13.0
+    - 1.14.0
     compatible:
     - 1.6.0
     - 1.7.0
@@ -3313,20 +3460,22 @@ m_ResolvedPackages:
     - 1.12.2
     - 1.12.4
     - 1.12.5
+    - 1.13.0
+    - 1.14.0
     verified: 1.6.0
   dependencies:
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   keywords: []
   registry:
@@ -3379,6 +3528,7 @@ m_ResolvedPackages:
     - 1.0.3
     - 2.0.0
     - 2.0.1
+    - 2.1.0
     compatible:
     - 1.0.3
     - 2.0.0
