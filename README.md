@@ -9,7 +9,7 @@ Plans:
 
 1st part - character movement and synchonize peoples. ([Completed](https://www.youtube.com/watch?v=xdfmW2RhQCE&t))
 
-2nd part - customization player and nicknames. ([Completed](https://www.youtube.com/watch?v=C64wvXsT_C4&t=503s))
+2nd part - customization player and nicknames. ([Completed](https://www.youtube.com/watch?v=C64wvXsT_C4&t))
 
 3rd part - adding wood and stone resources. (Not completed)
  
